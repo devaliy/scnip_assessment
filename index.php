@@ -65,7 +65,7 @@ require_once('config/init.php');
 
                     // Get products sorted by price
                     $products = $catalog->getProducts($productPriceSorter);
-                    var_dump($products);
+                    //  var_dump($products);
                 } elseif ($param == 'perview') {
 
                     // Get products sorted by sales per view
